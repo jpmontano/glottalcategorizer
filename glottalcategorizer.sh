@@ -7,7 +7,7 @@ GLOTTALFILENAME="filewithsomeglottalwords.txt"
 # left-hand side of a glottal stop.
 LHSARRAY=("[^a]a" "aa" "b" "ch" "[^n]d" "e" "[^n]g" "[^c|n|s|z]h"
 	  "[^i]i" "ii" "[^n]j" "[^s]k" "m" "nd" "ng" "nh" "nj" "ns"
-          "ny" "[^o]o" "oo" "p" "sh" "sk" "t" "w" "[^n]y" "zh" "'")
+	  "ny" "[^o]o" "oo" "p" "sh" "sk" "t" "w" "[^n]y" "zh" "'")
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
@@ -36,8 +36,8 @@ for ((i=0; i<$NUMOFLHSELEMENTS; i++)); do
 		GLOTPATCAT=${LHSARRAY[${i}]}h${RHSARRAY[${j}]}
 
 		# Array CURRENTOBS is egrepped all of the current
-                # iteration's observed occurrences of a particular
-                # glottal pattern category.
+		# iteration's observed occurrences of a particular
+		# glottal pattern category.
 		CURRENTOBS=( $(cat $GLOTTALFILENAME | egrep $GLOTPATCAT) )
 
 		# If array CURRENTOBS is not empty, then we have a
