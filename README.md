@@ -1,6 +1,6 @@
 # Glottal Categorizer
 
-**Glottal Categorizer is a bash script (Debian-tested) which reads a file of Nishnaabe words (Pic River dialect) containing glottal stops, and returns a categorization of all the file's words into the particular glottal stop grapheme pattern to which it belongs. Each returned "glottal stop grapheme pattern" is an observed instance (from within the file of Nishnaabe words) of some variation of the following sequence:**
+**Glottal Categorizer is a bash script (Debian-tested) which reads a file of glottal-stop-containing Nishnaabe words (Pic River dialect), and returns a categorization of all the file's words into the particular glottal stop grapheme regex pattern(s) to which each word belongs. Each returned "glottal stop grapheme regex pattern" contains at least one occurrence of a Nishnaabe word (from within the file of Nishnaabe words) containing the following sequence:**
 
 **Left-hand-side grapheme -> Glottal stop -> Right-hand-side grapheme.**
 
