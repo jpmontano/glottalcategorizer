@@ -5,16 +5,23 @@ GLOTTALFILENAME="filewithsomeglottalwords.txt"
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # left-hand side of a glottal stop.
-LHSARRAY=("[^a]a" "aa" "b" "ch" "[^n]d" "e" "[^n]g" "[^c|n|s|z]h"
-	  "[^i]i" "ii" "[^n]j" "[^s]k" "m" "nd" "ng" "nh" "nj" "ns"
-	  "ny" "[^o]o" "oo" "p" "sh" "sk" "t" "w" "[^n]y" "zh" "'")
+# 
+# LHSARRAY assumes that no word can begin with a glottal stop. To
+# allow LHSARRAY to recognize glottals at the beginning of a line,
+# you can edit "[^c|n|s|z]h" to read "([^c|n|s|z]|^)h"
+LHSARRAY=("([^a]|^)a" "aa" "b" "ch" "([^n]|^)d" "e" "([^n]|^)g"
+          "[^c|n|s|z]h" "([^i]|^)i" "ii" "([^n]|^)j"
+          "([^s]|^)k" "m" "nd" "ng" "nh" "nj" "ns" "ny"
+          "([^o]|^)o" "oo" "p" "sh" "sk" "t" "w" "([^n]|^)y"
+          "zh" "'")
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
-RHSARRAY=("a[^a]" "aa" "b" "ch" "d" "e" "g" "h" "i[^i]" "ii" "j"
-	  "k" "m" "n[^d|g|h|j|s|y|zh]" "nd" "ng" "nh" "nj" "ns"
-	  "ny" "nzh" "o[^o]" "oo" "p" "s[^h|k]" "sh[^k]"
-	  "shk" "sk" "t" "w" "y" "z[^h]" "zh" "'")
+RHSARRAY=("a([^a]|$)" "aa" "b" "ch" "d" "e" "g" "h" "i([^i]|$)"
+          "ii" "j" "k" "m" "n([^d|g|h|j|s|y|zh]|$)" "nd" "ng"
+          "nh" "nj" "ns" "ny" "nzh" "o([^o]|$)" "oo" "p"
+          "s([^h|k]|$)" "sh([^k]|$)" "shk" "sk" "t" "w" "y"
+          "z([^h]|$)" "zh" "'")
 
 # Get the number of elements in each array.
 NUMOFLHSELEMENTS=${#LHSARRAY[@]}
@@ -69,7 +76,7 @@ done
 echo
 echo The number of theoretically possible glottal pattern categories is $(($NUMOFLHSELEMENTS * $NUMOFRHSELEMENTS))
 echo
-echo The number of observed glottal pattern categories observed is $NUMOFCATS
+echo The number of observed glottal pattern categories is $NUMOFCATS
 echo
 printf "The observed glottal pattern categories are, as regex patterns"
 printf ", %s" "${OBSCATS[@]}"
