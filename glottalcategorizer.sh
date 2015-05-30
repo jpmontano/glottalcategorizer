@@ -12,7 +12,7 @@ LHSARRAY=("[^a]a" "aa" "b" "ch" "[^n]d" "e" "[^n]g" "[^c|n|s|z]h"
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
 RHSARRAY=("a[^a]" "aa" "b" "ch" "d" "e" "g" "h" "i[^i]" "ii" "j"
-	  "k" "m" "n[^d|g|h|j|s|sh|y|zh]" "nd" "ng" "nh" "nj" "ns"
+	  "k" "m" "n[^d|g|h|j|s|y|zh]" "nd" "ng" "nh" "nj" "ns"
 	  "ny" "nzh" "o[^o]" "oo" "p" "s[^h|k]" "sh[^k]"
 	  "shk" "sk" "t" "w" "y" "z[^h]" "zh" "'")
 
