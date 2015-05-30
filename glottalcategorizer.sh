@@ -78,7 +78,7 @@ echo The number of theoretically possible glottal pattern categories is $(($NUMO
 echo
 echo The number of observed glottal pattern categories is $NUMOFCATS
 echo
-printf "The observed glottal pattern categories are, as regex patterns"
+printf "The observed glottal pattern categories are, as regexen"
 printf ", %s" "${OBSCATS[@]}"
 echo
 echo
