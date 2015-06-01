@@ -3,7 +3,7 @@
 # Nishnaabe graphemes:
 # ', -, a, aa, b, ch, d, e, g, h, i, ii,
 # j, k, m, n, nd, ng, nh, nj, ns, ny, nzh,
-# o, p, s, sh, shk, t, w, y, z
+# o, p, s, sh, shk, t, w, y, z, zh
 
 
 # Initialize the name of the file containing the glottal words to categorize.
