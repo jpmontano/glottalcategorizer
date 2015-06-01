@@ -21,7 +21,6 @@ GLOTTALFILENAME="filewithsomeglottalwords.txt"
 # glottal stop. To allow LHSARRAY to be open to the possibility
 # of the occurrence of a hyphen immediately before a glottal stop,
 # you can edit LHSARRAY to include "-"
-
 LHSARRAY=("'" "([^a]|^)a" "aa" "b" "ch" "([^n]|^)d" "e"
           "([^n]|^)g" "[^c|n|s|z]h" "([^i]|^)i" "ii" "([^n]|^)j"
           "([^s|sh]|^)k" "m" "nd" "ng" "nh" "nj" "ns" "ny" "nzh"
@@ -30,7 +29,6 @@ LHSARRAY=("'" "([^a]|^)a" "aa" "b" "ch" "([^n]|^)d" "e"
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
-
 RHSARRAY=("'" "-" "a([^a]|$)" "aa" "b" "ch" "d" "e" "g" "h"
           "i([^i]|$)" "ii" "j" "k" "m" "n([^d|g|h|j|s|y|zh]|$)"
           "nd" "ng" "nh" "nj" "ns" "ny" "nzh" "o([^o]|$)" "oo"
