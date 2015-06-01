@@ -86,7 +86,7 @@ done
 
 # Display for the user a final summary of the computed results.
 echo
-echo The number of theoretically possible glottal pattern categories is $(($NUMOFLHSELEMENTS * $NUMOFRHSELEMENTS))
+echo The number of hypothetically possible glottal pattern categories is $(($NUMOFLHSELEMENTS * $NUMOFRHSELEMENTS))
 echo
 echo The number of observed glottal pattern categories is $NUMOFCATS
 echo
