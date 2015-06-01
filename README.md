@@ -7,36 +7,6 @@
 ## Sample Output
 
 ```
-------([^a]|^)aha([^a]|$)------
-nbagdahang
-bookgahang
-
-------([^a]|^)ahaa------
-dbahaabaaneyaag
-dbahaabaan
-gete-yahaa
-
-------([^a]|^)ahd------
-ggwejkazhbahdiwaad
-
-------([^a]|^)ahg------
-bnahgaadeg
-giishkgahgaadeg
-aabaabkahganked
-aabaabkahgaadeg
-dbahganens
-giishkgahgaazod
-
-
-. . .
-
-
-------zhho([^o]|$)------
-moozhhod
-
-------zhhw------
-zaagjinaazhhwaad
-
 ------'haa------
 maadwewebzon'haad
 wiin'haad
@@ -46,20 +16,47 @@ gaas'haad
 moon'hibiid
 gon'higed
 
+------([^a]|^)aha([^a]|$)------
+nbagdahang
+bookgahang
 
-The number of theoretically possible glottal pattern categories is 986
+------([^a]|^)ahaa------
+dbahaabaaneyaag
+dbahaabaan
+gete-yahaa
+
+
+. . .
+
+
+------oohw------
+gkendmoohwed
+
+------([^n]|^)yhii------
+zaagjiyhiing
+aabtooyhiing
+
+------([^n]|^)zhho([^o]|$)------
+moozhhod
+
+------([^n]|^)zhhw------
+zaagjinaazhhwaad
+
+
+The number of theoretically possible glottal pattern categories is 1085
 
 The number of observed glottal pattern categories is 51
 
-The observed glottal pattern categories are, as regexen, ([^a]|^)aha([^a]|$),
-([^a]|^)ahaa, ([^a]|^)ahd, ([^a]|^)ahg, ([^a]|^)ahii, ([^a]|^)ahoo,
-([^a]|^)ahs([^h|k]|$), ([^a]|^)ahw, aahaa, aahch, aahg, bhi([^i]|$), bhoo,
-([^n]|^)dha([^a]|$), ([^n]|^)dhi([^i]|$), ([^n]|^)dhoo, eha([^a]|$), ehaa, ehe,
-ehg, ehm, eho([^o]|$), ehw, ([^n]|^)ghi([^i]|$), ([^n]|^)gho([^o]|$),
-([^n]|^)ghw, ([^i]|^)ihaa, ([^i]|^)ihii, ([^i]|^)iho([^o]|$), iiha([^a]|$),
-iihaa, iihg, iihm, iiho([^o]|$), iihw, ([^n]|^)jhi([^i]|$), ([^s]|^)kha([^a]|$),
-([^s]|^)khaa, ([^s]|^)khi([^i]|$), ([^s]|^)khw, mhe, nghi([^i]|$), ([^o]|^)ohg,
-oohaa, oohm, oohw, ([^n]|^)yhii, zhho([^o]|$), zhhw, 'haa, 'hi([^i]|$)
+The observed glottal pattern categories are, as regexen, 'haa, 'hi([^i]|$),
+([^a]|^)aha([^a]|$), ([^a]|^)ahaa, ([^a]|^)ahd, ([^a]|^)ahg, ([^a]|^)ahii,
+([^a]|^)ahoo, ([^a]|^)ahs([^h|k]|$), ([^a]|^)ahw, aahaa, aahch, aahg,
+bhi([^i]|$), bhoo, ([^n]|^)dha([^a]|$), ([^n]|^)dhi([^i]|$), ([^n]|^)dhoo,
+eha([^a]|$), ehaa, ehe, ehg, ehm, eho([^o]|$), ehw, ([^n]|^)ghi([^i]|$),
+([^n]|^)gho([^o]|$), ([^n]|^)ghw, ([^i]|^)ihaa, ([^i]|^)ihii,
+([^i]|^)iho([^o]|$), iiha([^a]|$), iihaa, iihg, iihm, iiho([^o]|$), iihw,
+([^n]|^)jhi([^i]|$), ([^s|sh]|^)kha([^a]|$), ([^s|sh]|^)khaa,
+([^s|sh]|^)khi([^i]|$), ([^s|sh]|^)khw, mhe, nghi([^i]|$), ([^o]|^)ohg, oohaa,
+oohm, oohw, ([^n]|^)yhii, ([^n]|^)zhho([^o]|$), ([^n]|^)zhhw
 ```
 
 
