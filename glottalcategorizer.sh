@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nishnaabe graphemes:
-# ', -, a, aa, b, ch, d, e, g, h, i, ii,
+# -, ', a, aa, b, ch, d, e, g, h, i, ii,
 # j, k, m, n, nd, ng, nh, nj, ns, ny, nzh,
 # o, p, s, sh, shk, t, w, y, z, zh
 
