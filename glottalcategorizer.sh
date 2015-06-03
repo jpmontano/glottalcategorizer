@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Nishnaabe graphemes:
+# These are all of the Nishnaabe graphemes - in sort order.
 # -, ', a, aa, b, ch, d, e, g, h, i, ii,
 # j, k, m, n, nd, ng, nh, nj, ns, ny, nzh,
 # o, p, s, sh, shk, t, w, y, z, zh
@@ -29,7 +29,7 @@ LHSARRAY=("'" "([^a]|^)a" "aa" "b" "ch" "([^n]|^)d" "e"
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
-RHSARRAY=("'" "-" "a([^a]|$)" "aa" "b" "ch" "d" "e" "g" "h"
+RHSARRAY=("-" "'" "a([^a]|$)" "aa" "b" "ch" "d" "e" "g" "h"
           "i([^i]|$)" "ii" "j" "k" "m" "n([^d|g|h|j|s|y|zh]|$)"
           "nd" "ng" "nh" "nj" "ns" "ny" "nzh" "o([^o]|$)" "oo"
           "p" "s([^h|k]|$)" "sh([^k]|$)" "shk" "sk" "t" "w" "y"
