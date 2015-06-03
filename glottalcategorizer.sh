@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# These are all of the Nishnaabe graphemes - in sort order.
+# These are all of the Nishnaabe graphemes - in sorted order.
 # -, ', a, aa, b, ch, d, e, g, h, i, ii,
 # j, k, m, n, nd, ng, nh, nj, ns, ny, nzh,
 # o, p, s, sh, shk, t, w, y, z, zh
