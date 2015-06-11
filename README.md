@@ -43,7 +43,7 @@ moozhhod
 zaagjinaazhhwaad
 
 
-The number of hypothetically possible glottal pattern categories is 1085
+The number of hypothetically possible glottal pattern categories is 1116
 
 The number of observed glottal pattern categories is 51
 
