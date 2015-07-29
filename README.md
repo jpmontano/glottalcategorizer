@@ -59,7 +59,7 @@ gha([^a]|$) ([^n]|^)ghaa ([^n]|^)ghi([^i]|$) ([^n]|^)ghw ([^n]|^)ǧhi([^i]|$)
 ([^n]|^)jhaa ([^n]|^)jhi([^i]|$) ([^s|sh]|^)kha([^a]|$) ([^s|sh]|^)ǩhi([^i]|$)
 mhaa mhe ([^o]|^)oha([^a]|$) ([^o]|^)ohw phaa shkha([^a]|$) skha([^a]|$) ([^n]|^)
 yhii ([^n]|^)zhhi([^i]|$)
-
+```
 
 
 ## Current project member:
