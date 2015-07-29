@@ -45,21 +45,20 @@ yekwaayhiing
 naajnizhhigaadeg
 
 
-The number of hypothetically possible glottal pattern categories is 3948
+The number of hypothetically possible glottal pattern categories is 4128
 
 The number of observed glottal pattern categories is 53
 
 The observed glottal pattern categories are, as regexen, 'ha([^a]|$) 'haa
-'hi([^i]|$) 'ho([^o]|$) ([^a]|^)aha([^a]|$) ([^a]|^)ahd ([^a]|^)ahg ([^a]|^)ahm
-([^a]|^)aho([^o]|$) ([^a]|^)ahoo ([^a]|^)aht ([^a]|^)ahw aaha([^a]|$) aahd aahg
-aaht bha([^a]|$) bhi([^i]|$) bhw ([^n]|^)dha([^a]|$) ([^n]|^)dhaa eha([^a]|$)
-ehb eȟd ehe eho([^o]|$) ehoo ehw ([^n]|^)gha([^a]|$) ([^n]|^)ghaa
-([^n]|^)ghi([^i]|$) ([^n]|^)ghw ([^n]|^)ǧhi([^i]|$) ([^i]|^)ihaa ([^i]|^)ihii
-([^i]|^)iho([^o]|$) ([^i]|^)ihw iiha([^a]|$) iihaa iihg ([^n]|^)jhaa
-([^n]|^)jhi([^i]|$) ([^s|sh]|^)kha([^a]|$) ([^s|sh]|^)ǩhi([^i]|$) mhaa mhe
-([^o]|^)oha([^a]|$) ([^o]|^)ohw phaa shkha([^a]|$) skha([^a]|$) ([^n]|^)yhii
-([^n]|^)zhhi([^i]|$)
-```
+'hi([^i]|$) 'ho([^o]|$) ([^a]|^)aha([^a]|$) ([^a]|^)ahd ([^a]|^)ahg ([^a]|^)
+ahm([^b]|$) ([^a]|^)aho([^o]|$) ([^a]|^)ahoo ([^a]|^)aht ([^a]|^)ahw aaha([^a]|$)
+aahd aahg aaht ([^m]|^)bha([^a]|$) ([^m]|^)bhi([^i]|$) ([^m]|^)bhw ([^n]|^)
+dha([^a]|$) ([^n]|^)dhaa eha([^a]|$) ehb eȟd ehe eho([^o]|$) ehoo ehw ([^n]|^)
+gha([^a]|$) ([^n]|^)ghaa ([^n]|^)ghi([^i]|$) ([^n]|^)ghw ([^n]|^)ǧhi([^i]|$)
+([^i]|^)ihaa ([^i]|^)ihii ([^i]|^)iho([^o]|$) ([^i]|^)ihw iiha([^a]|$) iihaa iihg
+([^n]|^)jhaa ([^n]|^)jhi([^i]|$) ([^s|sh]|^)kha([^a]|$) ([^s|sh]|^)ǩhi([^i]|$)
+mhaa mhe ([^o]|^)oha([^a]|$) ([^o]|^)ohw phaa shkha([^a]|$) skha([^a]|$) ([^n]|^)
+yhii ([^n]|^)zhhi([^i]|$)
 
 
 
