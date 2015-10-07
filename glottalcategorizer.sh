@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Disregarding carons (ǧ, ȟ and ǩ), these are all of the Nishnaabe
-# graphemes in sorted order:
+# graphemes:
 # - ' a aa b ch d e g h i ii j k
 # m mb n nd ng nh nj ns ny nz nzh
-# o oo p s sh shk sk t w y z zh
+# o oo p s sh shk sht sk t w y z zh
 #
 #
 # Including carons (ǧ, ȟ and ǩ), these are all of the Nishnaabe
-# graphemes in sorted order:
+# graphemes:
 # - ' a aa b ch cȟ d e g ǧ h ȟ i ii j k ǩ
 # m mb n nd ng nǧ nh nȟ nj ns ny nz nzh nzȟ
-# o oo p s sh sȟ shk shǩ sk sǩ t w y z zh zȟ
+# o oo p s sh sȟ shk shǩ sht sk sǩ t w y z zh zȟ
 
 
 # Initialize the name of the file containing the glottal words to categorize.
@@ -36,8 +36,8 @@ LHSARRAY=("'" "([^a]|^)a" "aa" "([^m]|^)b" "ch" "cȟ" "([^n]|^)d" "e"
     "([^n]|^)g" "([^n]|^)ǧ" "[^c|n|s|z]h" "[^c|n|s|z]ȟ" "([^i]|^)i"
     "ii" "([^n]|^)j" "([^s|sh]|^)k" "([^s|sh]|^)ǩ" "m" "mb" "nd"
     "ng" "nǧ" "nh" "nȟ" "nj" "ns" "ny" "nzh" "nzȟ" "([^o]|^)o" "oo"
-    "p" "sh" "sȟ" "shk" "shǩ" "sk" "sǩ" "t" "w" "([^n]|^)y"
-    "([^n]|^)zh" "([^n]|^)zȟ")
+    "p" "sh" "sȟ" "shk" "shǩ" "sht" "sk" "sǩ" "([^sh]|^)t" "w"
+    "([^n]|^)y" "([^n]|^)zh" "([^n]|^)zȟ")
 
 # Declare an array of all the (regex) graphemes that could occur on the
 # right-hand side of a glottal stop.
@@ -45,8 +45,8 @@ RHSARRAY=("-" "'" "a([^a]|$)" "aa" "b" "ch" "cĥ" "d" "e" "g" "ǧ"
     "h" "ȟ" "i([^i]|$)" "ii" "j" "k" "ǩ" "m([^b]|$)" "mb"
     "n([^d|g|ǧ|h|ȟ|j|s|y|z|zh|zȟ]|$)" "nd" "ng" "nǧ" "nh" "nȟ"
     "nj" "ns" "ny" "nz([^h|ȟ]|$)" "nzh" "nzȟ" "o([^o]|$)" "oo"
-    "p" "s([^h|ȟ|k|ǩ]|$)" "sh([^k|ǩ]|$)" "sȟ([^k|ǩ]|$)"
-    "shk" "shǩ" "sk" "sǩ" "t" "w" "y" "z([^h|ȟ]|$)" "zh" "zȟ")
+    "p" "s([^h|ȟ|k|ǩ]|$)" "sh([^k|ǩ|t]|$)" "sȟ([^k|ǩ]|$)"
+    "shk" "shǩ" "sht" "sk" "sǩ" "t" "w" "y" "z([^h|ȟ]|$)" "zh" "zȟ")
 
 # Declare an array of all possible forms a glottal stop can take.
 # (i.e., a glottal _without_ a caron, and a glottal _with_ a caron)
